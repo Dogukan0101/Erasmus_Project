@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+}
+
+.nav-item {
+  margin: 8px;
+  width: max-content;
+  color: white;
+}
+
+.khas-logo {
+  height: 80px;
+}
+
+.first-m {
+  margin-top: 140px;
+}
+
+.jumbotron {
+  width: 90%;
+}
+
+.button1 {
+  background-color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+.button1:hover {
+  background-color: bisque;
+}
+
+input:focus {
+  outline: none;
+}
+
+input {
+  padding: auto;
+}
