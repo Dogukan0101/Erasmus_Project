@@ -13,11 +13,8 @@ body {
 }
 
 .first-m {
-  margin-top: 140px;
-}
-
-.jumbotron {
-  width: 90%;
+  margin-top: 55px;
+  margin-bottom: 40px;
 }
 
 .button1 {
@@ -30,10 +27,15 @@ body {
   background-color: bisque;
 }
 
+.custom-select {
+  outline: none;
+  width: 185px;
+}
+
 input:focus {
   outline: none;
 }
 
 input {
-  padding: auto;
+  padding: 3.5px;
 }

@@ -22,7 +22,7 @@
     ></script>
 
     <!--Navbar Starts-->
-    <div class="fixed-top">
+    <div class="">
       <div class="container">
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
@@ -37,7 +37,12 @@
           <div class="navbar-collapse collapse">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Ana Sayfa</a>
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Ana Sayfa</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index2.html">ErasmusYorum</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Hakkımızda</a>
@@ -50,7 +55,7 @@
     <!--Navbar Ends-->
 
     <!--Form Area Starts-->
-    <div class="first-m p-5 bg-primary text-white rounded jumbotron container">
+    <div class="first-m p-5 bg-primary text-white rounded container">
       <h1>Erasmus'a gitme ihtimalini öğren!</h1>
       <hr />
 
@@ -65,7 +70,32 @@
       </p>
 
       <h6 class="mt-5">Bölümünüz:</h6>
-      <input type="text" class="border-0 rounded" />
+      <select class="custom-select rounded">
+        <option selected></option>
+        <option value="1">Hukuk</option>
+        <option value="2">Ekonomi</option>
+        <option value="3">İşletme</option>
+        <option value="4">Psikoloji</option>
+        <option value="5">Siyaset Bilimi ve Kamu Yönetimi</option>
+        <option value="6">Uluslararası İlişkiler</option>
+        <option value="7">Uluslararası Ticaret ve Finansman</option>
+        <option value="8">Yönetim Bilişim Sistemleri</option>
+        <option value="9">Görsel İletişim Tasarımı</option>
+        <option value="10">Halkla İlişkiler ve Tanıtım</option>
+        <option value="11">Radyo, Televizyon ve Sinema</option>
+        <option value="12">Reklamcılık</option>
+        <option value="13">Yeni Medya</option>
+        <option value="14">Bilgisayar Mühendisliği</option>
+        <option value="15">Elektrik-Elektronik Mühendisliği</option>
+        <option value="16">Endüstri Mühendisliği</option>
+        <option value="17">İnşaat Mühendisliği</option>
+        <option value="18">Mekatronik Mühendisliği</option>
+        <option value="19">Moleküler Biyoloji ve Genetik</option>
+        <option value="20">Endüstriyel Tasarım</option>
+        <option value="21">İç Mimarlık ve Çevre Tasarımı</option>
+        <option value="22">Mimarlık</option>
+        <option value="23">Tiyatro</option>
+      </select>
       <h6 class="mt-4">Ortalamanız:</h6>
       <input type="text" class="border-0 rounded" />
       <h6 class="mt-4">Dil Puanı:</h6>
